@@ -1,0 +1,13 @@
+{
+  "name": "script-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello:js": "node scripts/helloworld.js",
+    "hello:bash": "bash scripts/helloworld.sh",
+    "hello:cmd": "cd scripts && helloworld.cmd"
+  },
+  "author": "Paula Santamaría",
+  "license": "ISC"
+}
